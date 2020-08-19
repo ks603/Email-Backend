@@ -26,7 +26,9 @@ class Header extends Component {
     return (
       <nav>
         <div className="nav-wrapper">
-          <a className="brand-logo left">Emaily</a>
+          <a style={{ paddingLeft: '10px' }} className="brand-logo left">
+            Emaily
+          </a>
           <ul id="nav-mobile" className="right">
             {this.renderContent()}
           </ul>
