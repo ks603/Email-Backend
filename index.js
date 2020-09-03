@@ -6,6 +6,7 @@ const bodyParser = require('body-parser')
 const keys = require('./config/keys')
 require('./models/Users')
 require('./services/passport')
+require('./models/Survery')
 
 mongoose.connect(keys.mongoURI, {
   useNewUrlParser: true,
